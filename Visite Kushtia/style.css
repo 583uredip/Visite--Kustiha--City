@@ -1,0 +1,294 @@
+*{
+    font-family:"Plus Jakarta Sans",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(#ffffff, #ebdcff);
+}
+
+.btn
+{
+    background-color: #827bff;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn-white
+{
+    border: 2px solid #872bff;
+    border-radius: 30px;
+    padding: 16px 32px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.heading-content
+{
+    text-align: center;
+}
+.heading-content h4
+{
+    color:#f411cf;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.heading-content h2
+{
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+#banner
+{
+    margin: 100px auto 120px auto;
+    border: 2px solid #827bff10;
+    border-radius: 40px;
+    padding: 20px 30px;
+    background-image: url("image/hero-bg.png");
+    width: 87.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.banner-content
+{
+    width: 50%;
+}
+.banner-content *{
+    margin-bottom: 20px;
+}
+.banner-content h1
+{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-content p
+{
+    font-weight:medium;
+    font-size: 18px;
+    color: #a8a8a8;
+}
+.banner-content h1 span
+{
+    color: #f411cf;
+}
+.banner-image img
+{
+    width: 600px;
+}
+#service,#story,#country
+{
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+#service-card-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.service-card
+{
+    background-color: white;
+    padding: 100px 60px;
+    text-align: center;
+    width: 350px;
+    border-radius: 30px;
+
+
+}
+.service-card img
+{
+    margin-bottom: 30px;
+    width: 90%;
+    border-radius: 50px;
+}
+.service-card h2
+{
+     font-weight: semibold;
+     font-size: 28px;
+     margin-bottom: 20px;
+}
+.service-card p
+{
+    color: #a8a8a8;
+    font-weight: bold;
+}
+.story-card
+{
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+}
+.story-content h2,
+.story-content p,
+.story-content image
+{
+    margin-bottom: 30px;
+}
+.story-content image
+{
+    border-radius: 40%;
+}
+
+
+
+  #tourist-card-container 
+  {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 40px;
+}
+
+#tourist-card-container h2 {
+    background: linear-gradient(135deg, #ffffff, #f0e6ff);
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 2px solid #827bff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 0;
+}
+
+#tourist-card-container h2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #f0e6ff, #ffffff);
+}
+@media (max-width: 1200px) {
+    #banner {
+        width: 90%;
+        flex-direction:column;
+        text-align: center;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 50px;
+    }
+
+    .banner-img img {
+        max-width: 400px;
+        margin-top: 20px;
+    }
+
+    #service-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .story-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tourist-card-container h2 {
+        width: 180px;
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #banner {
+        margin: 50px auto;
+        padding: 15px;
+        width: 95%;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .button-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn, .btn-white {
+        margin-right: 0;
+        width: 100%;
+        padding: 12px;
+    }
+
+    .heading-content h2 {
+        font-size: 32px;
+    }
+
+    .heading-content h4 {
+        font-size: 18px;
+    }
+
+    #service, #story, #country {
+        width: 95%;
+        margin: 0 auto 80px auto;
+    }
+
+    .service-card {
+        width: 90%;
+        padding: 40px;
+    }
+
+    .service-card img {
+        height: 150px;
+    }
+
+    .service-card h2 {
+        font-size: 24px;
+    }
+
+    .story-card {
+        padding: 20px;
+    }
+
+    .story-content img {
+        height: 150px;
+    }
+
+    #tourist-card-container {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #tourist-card-container h2 {
+        width: 100%;
+        max-width: 300px;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
