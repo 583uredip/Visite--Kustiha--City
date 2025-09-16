@@ -1,4 +1,4 @@
-# Visit Kushtia - Explore My Hometown
+# Visit Kushtia- Explore My Hometown
 
 My hometown, **Kushtia**, is a beautiful city in Bangladesh rich with **history, culture, and natural beauty**.  
 
